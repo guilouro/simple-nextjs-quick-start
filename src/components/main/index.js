@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Main = () => (
-  <h1>Cartola NBA</h1>
+  <h1>Welcome</h1>
 );
 
 export default Main;
