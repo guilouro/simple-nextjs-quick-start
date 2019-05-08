@@ -1,7 +1,6 @@
-import React from 'react';
+import React from 'react'
+import * as S from './styles'
 
-const Main = () => (
-  <h1>Welcome</h1>
-);
+const Main = () => <S.Title>Welcome</S.Title>
 
-export default Main;
+export default Main

@@ -1,10 +1,10 @@
-import React from 'react';
-import Main from ".";
-import { shallow } from 'enzyme';
+import React from 'react'
+import Main from '.'
+import { render } from 'react-testing-library'
 
 describe('Main', () => {
   it('Should render correctly', () => {
-    const wrapper = shallow(<Main />);
-    expect(wrapper).toMatchSnapshot();
+    const { container } = render(<Main />)
+    expect(container).toMatchSnapshot()
   })
 })
