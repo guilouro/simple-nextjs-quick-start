@@ -4,7 +4,8 @@
   "description": "React quick start",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node -r @babel/register ./node_modules/.bin/webpack-dev-server --config ./webpack/dev.js",
+    "build": "rm -rf dist && node -r @babel/register ./node_modules/.bin/webpack --config ./webpack/prod.js",
     "test": "jest"
   },
   "author": "",
@@ -16,6 +17,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "eslint": "^5.16.0",
