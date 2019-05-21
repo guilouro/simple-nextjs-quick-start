@@ -10,6 +10,7 @@ export default {
   plugins: [...baseConfig.plugins, new webpack.HotModuleReplacementPlugin()],
 
   devServer: {
+    inline: true,
     hot: true,
     port: '8000'
   }
