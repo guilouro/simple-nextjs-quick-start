@@ -12,7 +12,7 @@ const App = ({ Component }) => (
 )
 
 App.propTypes = {
-  Component: PropTypes.node.isRequired
+  Component: PropTypes.func.isRequired
 }
 
 render(<App Component={Main} />, document.getElementById('main'))
