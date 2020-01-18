@@ -1,6 +1,7 @@
+import 'jest-styled-components'
 import React from 'react'
 import Main from '.'
-import { render } from 'react-testing-library'
+import { render } from '@testing-library/react'
 
 describe('Main', () => {
   it('Should render correctly', () => {
