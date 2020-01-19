@@ -33,3 +33,9 @@ Runs next start which starts a Next.js production server
 ```bash
 $ yarn start
 ```
+
+Runs next build and export which exports a files in a `out` folder to deploy
+
+```bash
+$ yarn deploy
+```
