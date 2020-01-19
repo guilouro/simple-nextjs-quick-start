@@ -23,7 +23,7 @@ export const Lib = styled.span`
 
 export const Version = styled.span`
   font-size: 10px;
-  color: #aaa;
+  color: #dbdbdb;
 `
 
 export const Title = styled.h1`

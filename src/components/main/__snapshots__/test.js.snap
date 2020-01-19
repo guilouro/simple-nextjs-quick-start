@@ -35,7 +35,7 @@ exports[`Main Should render correctly 1`] = `
 
 .c4 {
   font-size: 10px;
-  color: #aaa;
+  color: #dbdbdb;
 }
 
 .c2 {
