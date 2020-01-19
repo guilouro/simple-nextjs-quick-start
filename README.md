@@ -27,5 +27,5 @@ $ yarn build
 Runs next start which starts a Next.js production server
 
 ```bash
-$ yarn dev
+$ yarn start
 ```
