@@ -1,6 +1,6 @@
 import React from 'react'
 import NextApp from 'next/app'
-// import GlobalStyle from './global.styles'
+import GlobalStyle from './global.styles'
 
 export default class App extends NextApp {
   render() {
@@ -8,7 +8,7 @@ export default class App extends NextApp {
 
     return (
       <>
-        {/* <GlobalStyle /> */}
+        <GlobalStyle />
         <Component {...pageProps} />
       </>
     )
