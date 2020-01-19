@@ -2,9 +2,9 @@
 
 A simple project starter to work with React, NextJS and Styled Components
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b671857f-08a8-454e-95de-157120e956ca/deploy-status)](https://app.netlify.com/sites/nextjs-quick-start/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b671857f-08a8-454e-95de-157120e956ca/deploy-status)](https://app.netlify.com/sites/nextjs-quickstart/deploys)
 
-You can see the example in [https://nextjs-quick-start.netlify.com/](https://nextjs-quick-start.netlify.com/)
+You can see the example in [https://nextjs-quickstart.netlify.com/](https://nextjs-quickstart.netlify.com/)
 
 ### 📦 Install
 
