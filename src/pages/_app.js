@@ -1,5 +1,6 @@
 import React from 'react'
 import NextApp from 'next/app'
+import Head from 'next/head'
 import GlobalStyle from './global.styles'
 
 export default class App extends NextApp {
@@ -8,6 +9,9 @@ export default class App extends NextApp {
 
     return (
       <>
+        <Head>
+          <title>Simple NextJS Quick Start</title>
+        </Head>
         <GlobalStyle />
         <Component {...pageProps} />
       </>
