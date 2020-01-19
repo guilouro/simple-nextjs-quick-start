@@ -11,6 +11,14 @@ export default class App extends NextApp {
       <>
         <Head>
           <title>Simple NextJS Quick Start</title>
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#000" />
+          <link rel="shortcut icon" href="/icon-512.png" />
+          <link rel="apple-touch-icon" href="/icon-512.png" />
+          <meta
+            name="description"
+            content="A simple project starter to work with React, NextJS and Styled Components"
+          />
         </Head>
         <GlobalStyle />
         <Component {...pageProps} />
