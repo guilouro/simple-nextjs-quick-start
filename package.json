@@ -6,14 +6,12 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "deploy": "yarn build && next export",
     "test": "jest"
   },
   "author": "Guilherme Louro",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/register": "^7.4.4",
     "@testing-library/react": "^9.4.0",
     "@types/jest": "^24.9.0",
     "babel-eslint": "^10.0.1",
