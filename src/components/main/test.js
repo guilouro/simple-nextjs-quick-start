@@ -1,4 +1,3 @@
-import 'jest-styled-components'
 import React from 'react'
 import Main from '.'
 import { render } from '@testing-library/react'
