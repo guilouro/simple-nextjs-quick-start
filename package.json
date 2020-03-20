@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Nextjs quick start",
   "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "yarn build && next export",
-    "test": "jest"
+    "deploy": "yarn build && next export"
   },
   "author": "Guilherme Louro",
   "license": "MIT",
@@ -23,6 +24,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^2.5.1",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^24.1.0",
     "jest-styled-components": "^7.0.0",
