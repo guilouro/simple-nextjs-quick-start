@@ -31,7 +31,7 @@ export default class NextDocument extends Document {
   render() {
     return (
       <Html lang="en-us">
-        <Head>{this.props.styles}</Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
