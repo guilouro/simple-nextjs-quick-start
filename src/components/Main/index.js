@@ -16,7 +16,7 @@ const Main = ({ deps }) => (
     <S.Title>Nextjs / React / Styled Components</S.Title>
 
     <ul>
-      {Object.keys(deps).map(key => (
+      {Object.keys(deps).map((key) => (
         <li key={key}>
           <S.Lib>{key}</S.Lib>
           <S.Version>({deps[key]})</S.Version>
